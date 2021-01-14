@@ -8,7 +8,7 @@ body {
 .grid-wrapper {
     display: grid!important;
     grid-template-columns: 1fr 3fr 1fr!important;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 1fr 3fr auto;
     grid-template-areas:
     "header header header"
     "main-content main-content aside-content"
@@ -24,7 +24,7 @@ header {
     width: 100%;
 }
 
-main {
+app-exemple, main {
     grid-area: main-content!important;
     padding: 0!important;
     width: 100%;
