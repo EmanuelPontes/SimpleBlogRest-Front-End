@@ -1,5 +1,14 @@
 :host {
     width: 100%!important;
     padding: 1rem;
-    background-color: red!important;
+    background-color: white!important;
+}
+
+.vertical-line {
+    width: 1px!important;
+    min-height: 100vh;
+    max-height: 100rem!important;
+    height: 100%!important;
+    background-color: lightgrey!important;
+    margin: 0;
 }

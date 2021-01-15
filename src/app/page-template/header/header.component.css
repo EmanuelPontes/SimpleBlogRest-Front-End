@@ -1,5 +1,15 @@
 :host {
     width: 100%!important;
     padding: 1rem;
-    background-color: pink!important;
+    background-color: white!important;
+}
+
+#fontStyle-1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: slategray;
+}
+
+#fontStyle-2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: steelblue;
 }

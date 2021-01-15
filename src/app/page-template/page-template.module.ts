@@ -4,7 +4,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { AsideLeftComponent } from './aside-left/aside-left.component';
 import { MainComponent } from './main/main.component';
-
+import { ArticleComponent } from './article/article.component';
+import { NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -12,10 +13,12 @@ import { MainComponent } from './main/main.component';
     MainComponent,
     AsideLeftComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ArticleComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgbPaginationModule
   ],
   exports: [
     MainComponent,

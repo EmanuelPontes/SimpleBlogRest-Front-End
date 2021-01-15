@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  public page: number;
+  constructor() { 
+    this.page = 1;
+  }
 
   ngOnInit(): void {
+  }
+
+  public onPageChange(page: number): void{
+    console.log(page);
   }
 
 }
