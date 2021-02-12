@@ -11,7 +11,7 @@ body {
     grid-template-rows: 1fr 3fr auto;
     grid-template-areas:
     "header header header"
-    "main-content main-content aside-content"
+    "main-content main-content main-content"
     "footer footer footer"!important;
     background-color: whitesmoke!important;
     height: 100vh;
@@ -40,4 +40,16 @@ footer {
     grid-area: footer!important;
     padding: 0!important;
     width: 100%;
+}
+
+
+@font-face {
+  font-family: infiniteStroke;
+  src: url(assets/fonts/Infinite_Stroke_Bolder.otf) format("opentype");
+}
+
+
+@font-face {
+  font-family: handlegothic;
+  src: url(assets/fonts/handel-gothic-ex.ttf) format("opentype");
 }

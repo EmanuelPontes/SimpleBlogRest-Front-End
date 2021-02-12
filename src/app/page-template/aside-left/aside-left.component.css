@@ -4,11 +4,7 @@
     background-color: white!important;
 }
 
-.vertical-line {
-    width: 1px!important;
-    min-height: 100vh;
-    max-height: 100rem!important;
-    height: 100%!important;
-    background-color: lightgrey!important;
-    margin: 0;
+.card .card-body {
+  min-height: 100vh!important;
+  width: 100%;
 }
